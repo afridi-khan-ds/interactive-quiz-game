@@ -40,7 +40,7 @@ An interactive general knowledge quiz game built using HTML, CSS, and JavaScript
 
 ## Live Demo
 
-The live demo will be available here after deployment using GitHub Pages.
+(https://afridi-khan-ds.github.io/interactive-quiz-game/)
 
 ## Author
 
