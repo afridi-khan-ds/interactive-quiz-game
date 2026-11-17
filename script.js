@@ -149,96 +149,97 @@ function clearStatusClass(element) {
   element.classList.remove('wrong');
 }
 
-// ALL 10 QUIZ QUESTIONS
+
+// ALL 10 HSE SAFETY OFFICER QUIZ QUESTIONS
 const questions = [
   {
-    question: 'Which fruit is known for having a "crown" on top and shares its name with a type of fish?',
+    question: 'What is the main purpose of a workplace risk assessment?',
     answers: [
-      { text: 'Mango', correct: false },
-      { text: 'Apple', correct: false },
-      { text: 'Pine Apple', correct: true },
-      { text: 'Coconut', correct: false }
+      { text: 'To identify hazards and evaluate risks', correct: true },
+      { text: 'To increase work speed', correct: false },
+      { text: 'To reduce the number of workers', correct: false },
+      { text: 'To avoid preparing safety reports', correct: false }
     ]
   },
   {
-    question: 'What color are flamingos when they are born?',
+    question: 'What is the main purpose of a Permit-to-Work (PTW) system?',
     answers: [
-      { text: 'White or Grey', correct: true },
-      { text: 'Pink or magenta', correct: false },
-      { text: 'White or Yellow', correct: false },
-      { text: 'White or black', correct: false }
+      { text: 'To record employee attendance', correct: false },
+      { text: 'To authorize and control hazardous work activities', correct: true },
+      { text: 'To approve overtime', correct: false },
+      { text: 'To replace risk assessments', correct: false }
     ]
   },
   {
-    question: 'What is a group of lions called?',
+    question: 'What is an important requirement when working at height?',
     answers: [
-      { text: 'Troop', correct: false },
-      { text: 'Murder', correct: false },
-      { text: 'Mufasa', correct: false },
-      { text: 'Pride', correct: true }
+      { text: 'Use any available rope', correct: false },
+      { text: 'Work without checking the area', correct: false },
+      { text: 'Use an inspected full-body harness with a suitable anchor point when required', correct: true },
+      { text: 'Depend only on personal experience', correct: false }
     ]
   },
   {
-    question: 'What is the slowest animal in the world?',
+    question: 'Who should inspect scaffolding before it is used?',
     answers: [
-      { text: 'Snails', correct: false },
-      { text: 'Panda', correct: false },
-      { text: 'Sloths', correct: true },
-      { text: 'Star Fish', correct: false }
+      { text: 'Any available worker', correct: false },
+      { text: 'A competent and authorized person', correct: true },
+      { text: 'The delivery driver', correct: false },
+      { text: 'A visitor to the site', correct: false }
     ]
   },
   {
-    question: 'How many years can a snail sleep for?',
+    question: 'Which control is the most effective in the hierarchy of controls?',
     answers: [
-      { text: 'Two', correct: false },
-      { text: 'Three', correct: true },
-      { text: 'Four', correct: false },
-      { text: 'Five', correct: false }
+      { text: 'Personal Protective Equipment (PPE)', correct: false },
+      { text: 'Administrative controls', correct: false },
+      { text: 'Warning signs', correct: false },
+      { text: 'Elimination of the hazard', correct: true }
     ]
   },
   {
-    question: 'Which mammal has no vocal cords?',
+    question: 'Which fire extinguisher is generally suitable for an energized electrical equipment fire?',
     answers: [
-      { text: 'Llama', correct: false },
-      { text: 'Giraffe', correct: true },
-      { text: 'Whale', correct: false },
-      { text: 'Bat', correct: false }
+      { text: 'Water extinguisher', correct: false },
+      { text: 'Foam extinguisher', correct: false },
+      { text: 'CO₂ extinguisher', correct: true },
+      { text: 'Water bucket', correct: false }
     ]
   },
   {
-    question: 'How many eyes does a honeybee have?',
+    question: 'Why should near misses be reported?',
     answers: [
-      { text: 'Five', correct: true },
-      { text: 'Six', correct: false },
-      { text: 'Seven', correct: false },
-      { text: 'Eight', correct: false }
+      { text: 'To identify hazards and prevent future incidents', correct: true },
+      { text: 'To blame the workers involved', correct: false },
+      { text: 'To increase paperwork only', correct: false },
+      { text: 'Because reporting is optional in every workplace', correct: false }
     ]
   },
   {
-    question: 'How many hearts does an octopus have?',
+    question: 'When should a toolbox talk normally be conducted?',
     answers: [
-      { text: 'One', correct: false },
-      { text: 'Two', correct: false },
-      { text: 'Three', correct: true },
-      { text: 'Eight', correct: false }
+      { text: 'Only after an accident', correct: false },
+      { text: 'Before starting the work to discuss hazards and precautions', correct: true },
+      { text: 'Only at the end of the month', correct: false },
+      { text: 'After workers leave the site', correct: false }
     ]
   },
   {
-    question: 'What do you call a group of kangaroos?',
+    question: 'What is the purpose of Lockout/Tagout (LOTO)?',
     answers: [
-      { text: 'Assembly', correct: false },
-      { text: 'Murder', correct: false },
-      { text: 'Pride', correct: false },
-      { text: 'Troop', correct: true }
+      { text: 'To identify workers on site', correct: false },
+      { text: 'To increase equipment operating speed', correct: false },
+      { text: 'To prevent unexpected energization or release of hazardous energy', correct: true },
+      { text: 'To replace electrical inspections', correct: false }
     ]
   },
   {
-    question: 'What is a group of crows called?',
+    question: 'What should a Safety Officer do when a serious unsafe condition is identified?',
     answers: [
-      { text: 'Assembly', correct: false },
-      { text: 'Murder', correct: true },
-      { text: 'Pride', correct: false },
-      { text: 'Troop', correct: false }
+      { text: 'Ignore it if work is behind schedule', correct: false },
+      { text: 'Wait until the end of the shift', correct: false },
+      { text: 'Stop the affected work, make the area safe, and ensure corrective action', correct: true },
+      { text: 'Ask workers to continue carefully', correct: false }
     ]
   }
 ];
